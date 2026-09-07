@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    background-color: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#inicio h1 {
+    color: #F2F2F2;
+}
+
+.navbar {
+    background-color: #071426;
+}
+
+.navbar-brand img {
+    display: block;
+}
+
+.navbar-nav .nav-link {
+    color: #F2F2F2 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff !important;
+    opacity: 0.8;
+}
+
+.navbar-toggler {
+    border-color: #F2F2F2;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+#produtos {
+    padding: 20px;
+}
+
+.produto-card {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #071426;
+    color: #F2F2F2;
+    border: none;
+}
+
+.produto-card .card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.produto-card .card-title {
+    font-weight: bold;
+}
+
+.card-preco {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #F2F2F2;
+}
+
+.btn-comprar {
+    background-color: #F2F2F2;
+    color: #071426;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-comprar:hover {
+    background-color: #ffffff;
+    color: #071426;
+}
+
+.box-sobre {
+    max-width: 100%;
+    background-color: #071426;
+    color: #F2F2F2;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#valores {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+
+@media (max-width:922px) {
+    #valores {
+        flex-direction: column;
+    }
+}
+
+#horarios {
+    display: flex;
+    flex-direction: row;
+    background-color: #071426;
+    color: #F2F2F2;
+    justify-content: left;
+    width: 300px;
+}
+
+#lista-limpa {
+    list-style: none;
+    margin: 15px;
+    padding: 5px;
+}
+
+.rodape {
+    margin-top: 10px;
+    background-color: gray;
+    text-align: center;
+    font-size: small;
+}
+
+#final {
+    margin: 0;
+}
+
+#section-login {
+    margin-top: 100px;
+}
+
+#section-login h1 {
+    text-align: center;
+}
+
+#section-login input {
+    width: 100%;
+}
+
+#section-cadastro {
+    padding: 5px;
+    text-align: center;
+    background-color:#F2F2F2;
+}
+
+#form-cadastrar {
+    padding: 50px;
+    display: none;
+}
